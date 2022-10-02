@@ -14,6 +14,7 @@
 		height:550px;
 		background-color:#fff;
 		margin-top: 20px;
+		margin-left: 10px;
 		padding:10px 20px 10px 20px;
 	
 	  }
@@ -38,25 +39,38 @@
    	<br>
 	   I include 3 datasets from the source, those are:
 	   <ul>
-	<li>tourism_ with _id.csv which contains information on tourist attractions in 5 major cities in Indonesia totaling ~400.</li>
-	<br>
-	<li>user.csv which contains dummy user data to make recommendation features based on user.</li>
-	<br>
-	<li>tourism_rating.csv contains 3 columns, namely the user, the place, and the rating given, serves to create a recommendation system based on the rating.</li>
+		<li>tourism_ with _id.csv which contains information on tourist attractions in 5 major cities in Indonesia totaling ~400.</li>
+		<li>user.csv which contains dummy user data to make recommendation features based on user.</li>
+		<li>tourism_rating.csv contains 3 columns, namely the user, the place, and the rating given, serves to create a recommendation system based on the rating.</li>
 	   </ul>
    <br>
-	   </p>
+	   The destinations are divided into 6 categories, those are:
+	   <ul>
+		<li>Bahari: maritime destination, beach.</li>
+		<li>Budaya: cultural heritage.</li>
+		<li>Cagar Alam: natural destination (e.g: mountain, forest).</li>
+		<li>Pusat Perbelanjaan: mall, traditional market.</li>
+		<li>Taman Hiburan: amusement park. </li>
+		<li>Tempat Ibadah: worship place (e.g: temple, mosque).</li>
+	   </ul>
+    </p>
 	   <h2>Data Analysis</h2>
-   <p align="justify">There are around 400 tourism sites in those 5 cities.
+   <p class="tab">There are around 400 tourism sites in those 5 cities.</p>
 	   <br>
-	   With Yoyakarta has the highest number, in total: 126 tourism destinations.
+	 <p align="justify">With <b>Yoyakarta who has the highest number</b>, in total of <b>126 tourism destinations</b>. 
 	   <br>
-	   How's the respond from the visitor? Is it expensive?
+	   Among the destinations, "Taman Hiburan" category has the highest number of both visitors and sites. While "Pusat Perbelanjaan" has the lowest number.
+	   Surprisingly, in Yogyakarta, there is no user that put "Tempat Ibadah" category so, it is recorded that there is no "Tempat Ibadah" category for tourism destination.
+	   <br>
+	   All destinations have 4.5 stars rating, except "Pusat Perbelanjaan" who has 4.4 stars ratings.
+	   <br>
+	 - The price of most dstination is
    </p>
   <br>
   <br>
-  	 <div class='tableauPlaceholder' id='viz1664689374181' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;3X&#47;3XMHM9HBR&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;3XMHM9HBR' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;3X&#47;3XMHM9HBR&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1664689374181');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='300px';vizElement.style.maxWidth='420px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='300px';vizElement.style.maxWidth='420px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1027px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-	 <div class='tableauPlaceholder' id='viz1664689237961' style='position: relative'><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TourismSites-1&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TourismSites-1&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TourismSites-1&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1664689237961');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='300px';vizElement.style.maxWidth='420px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='300px';vizElement.style.maxWidth='420px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='977px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-	 </main>
+  	 <center>
+	 <div class='tableauPlaceholder' id='viz1664692633763' style='position: relative'><noscript><a href='#'><img alt='Indonesia&#39;s Tourism Destinations ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;4J&#47;4JY53YWDX&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;4JY53YWDX' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;4J&#47;4JY53YWDX&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1664692633763');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='650px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+	 </center>
+		 </main>
  </body>
 </html>
