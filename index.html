@@ -19,6 +19,23 @@
 	
 	  }
 	  
+	  .box1 {
+		float: left;
+		width:50%;
+		color:black;
+		padding: 5px 10px 5px 10px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	  
+	  .box2 {
+		float: right;
+		overflow:auto;
+		width:50%;
+		max-height:6000px;
+	
+	}
+	  
 	  h1 {
 		border-bottom: 2px dotted #557571;
 		color: #000;
@@ -33,9 +50,9 @@
      	<h1>Indonesia Tourism Destination Analysis</h1>
    </center>
 	   <h2>About Data</h2>
-   <p class="tab", style="font-family: arial;">The data source is from Kaggle: <a href="https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination">Indonesia Tourism Destination</a>.
+   <p class="tab">The data source is from Kaggle: <a href="https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination">Indonesia Tourism Destination</a>.
    </p>
-   <p align="justify", style="font-family: arial;">The data contains all tourism sites from 5 big cities in Indonesia which are: Bandung, Jakarta, Semarang, Surabaya, dan Yogyakarta.
+   <p align="justify">The data contains all tourism sites from 5 big cities in Indonesia which are: Bandung, Jakarta, Semarang, Surabaya, dan Yogyakarta.
    	<br>
 	   I include 3 datasets from the source, those are:
 	   <ul>
@@ -43,7 +60,7 @@
 		<li>user.csv which contains dummy user data to make recommendation features based on user.</li>
 		<li>tourism_rating.csv contains 3 columns, namely the user, the place, and the rating given, serves to create a recommendation system based on the rating.</li>
 	   </ul>
-	   <p align="justify", style="font-family: arial;">The destinations are divided into 6 categories, those are:
+	   <p align="justify">The destinations are divided into 6 categories, those are:
 	   <ul>
 		<li>Bahari: maritime destination, beach.</li>
 		<li>Budaya: cultural heritage.</li>
@@ -54,10 +71,10 @@
 	   </ul>
     </p>
 	   <h2>Data Analysis</h2>
-	   
+	   <div class="box1">
 	   <h3>Overall Analysis</h3>
-   	 <p class="tab", style="font-family: arial;">There are around 400 tourism sites in those 5 cities.</p>
-	 <p align="justify", style="font-family: arial;">With <b>Yoyakarta who has the highest number</b>, in total of <b>126 tourism destinations</b>.
+   	 <p class="tab">There are around 400 tourism sites in those 5 cities.</p>
+	 <p align="justify">With <b>Yoyakarta who has the highest number</b>, in total of <b>126 tourism destinations</b>.
 		 While Surabaya has the lowest number for tourism destinations and users.
 	   <br>
 		 "Taman Hiburan" category has the highest number of tourism destinations and visitors. The lowest number is for "Pusat Perbelanjaan".
@@ -69,25 +86,28 @@
 	 </p>
 	 
 	 <h3>The City with Most Tourism Destinations: Yogyakarta</h3>
-	 <p align="justify", style="font-family: arial;">Among the destinations, "Taman Hiburan" category has the highest number of both visitors and sites. While "Pusat Perbelanjaan" has the lowest number.
+	 <p align="justify">Among the destinations, "Taman Hiburan" category has the highest number of both visitors and sites. While "Pusat Perbelanjaan" has the lowest number.
 	   Surprisingly, in Yogyakarta, there is no user that put "Tempat Ibadah" category so, it is recorded that there is no "Tempat Ibadah" category for tourism destination.
 	   <br>
 	   All destinations have 4.5 stars rating, except "Pusat Perbelanjaan" who has 4.4 stars ratings.
 	   <br>
 	
 	 <h3>The Highest Number of Tourism Destinations by Category: "Taman Hiburan"</h3>
-	 
-   </p>
-  <br>
-  <br>
-  	 <center>
-	 <div class='tableauPlaceholder' id='viz1664692633763' style='position: relative'><noscript><a href='#'><img alt='Indonesia&#39;s Tourism Destinations ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;4J&#47;4JY53YWDX&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;4JY53YWDX' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;4J&#47;4JY53YWDX&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1664692633763');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='650px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-	 </center>
-  <br>
-	<h3>Further Analysis</h3>
+	<p align="justify">fasfa
+		   </p>
+	 <h3>Further Analysis</h3>
 	<ul>
-		<li><p class="tab", style="font-family: arial;">What kind of tourism destinations we could recommend to specific users (based on user's age and location)?</p></li>
+		<li><p class="tab">What kind of tourism destinations we could recommend to specific users (based on user's age and location)?</p></li>
 	</ul>
+   </p>
+	 </div>
+  <br>
+  <br>
+  	 <div class="box2">
+	 <div class='tableauPlaceholder' id='viz1664692633763' style='position: relative'><noscript><a href='#'><img alt='Indonesia&#39;s Tourism Destinations ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;4J&#47;4JY53YWDX&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;4JY53YWDX' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;4J&#47;4JY53YWDX&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1664692633763');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='650px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+	 </div>
+  <br>
+	
 		 </main>
  </body>
 </html>
